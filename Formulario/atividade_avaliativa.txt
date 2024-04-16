@@ -1,0 +1,57 @@
+Curso:  ADS      Disciplina:  Técnicas Atuais em Desenvolvimento de Software 
+Professor: Gildo de Almeida Leonel                                               
+Atividade Avaliativa
+
+1- Crie um formulário, contendo os seguintes itens:
+Nome 
+Email
+Endereço
+
+Profissão (Lista contendo: 
+Engenheiro de Software, 
+Analista de Segurança de Informação, 
+Analista de Sistemas, 
+Administrador de Sistemas, 
+Administrador do banco de dados (DBA),
+Gestor de tecnologias da informação, 
+Arquiteto de redes, 
+Desenvolvedor)
+Gênero: Feminino, Masculino, Prefiro não informar, Outro (Qual?) 
+Área de Interesse (
+    Banco de dados, 
+    Engenharia de software, 
+    Redes de computadores, 
+    Desenvolvimento de jogos, 
+    Programação back-end, 
+    Programação front-end, 
+    Mineração de dados) (Podendo escolher mais de uma)
+Fale conosco (Campo de texto)
+Deseja receber nossas promoções? (check box)
+Senha
+Confirmação da senha
+Botão de confirmação
+O método do formulário deve ser do tipo POST;
+
+###################################################
+
+2 - Após processar os dados do formulário anterior exiba, em uma nova página, uma tabela HTML com todo o conteúdo enviado no formulário da questão anterior.
+
+###################################################
+
+3 - Ao exibir os dados do formulário na tabela, realize as seguintes formatações:
+Nome  -> Colocar uma função para que independente de como o nome seja digitado no formulário, ele deve ser exibido com todas as letras em minúsculos, exceto as iniciais.
+
+Email -> Todo em minúsculo.
+
+Endereço -> Igual a formatação de nome.
+
+Gênero -> Caso o usuário escolha a opção Outro preencher com a informação do campo (Qual?)
+
+Senha -> Caso a senha tenha contenha uma quantidade de caracteres menor que 6, escreva a seguinte mensagem ao lado da senha: 'É recomendado uma senha com mais de 6 caracteres!'
+
+Confirmação da senha -> informar se é igual ou diferente do campo senha
+Qualquer campo não preenchido deve ser exibido “vazio” no lugar
+
+Pesquise sobre as funções para tratamento de strings em https://www.php.net/manual/pt_BR/ref.strings.php
+
+#Sem required

@@ -1,0 +1,19 @@
+Crie a classe Cesta 
+com o atributo privado itens.
+o método publico AdicionaItem que recebe um Produto como parâmetro, 
+o método ExibeLista que imprime uma lista contendo a etiqueta de cada produto da cesta 
+e o método CalculaTotal que imprime o valor total de todos os produtos da lista.
+
+
+Crie a classe abstrata Produto que tem os atributos privados: Codigo, Descricao, Quantidade  e PrecoTotal. Crie o método abstrato imprimeEtiquieta e também os get e sets necessários.
+
+
+Crie as classes Hardware, Smartphone e Eletronico que herdam de Produto 
+
+
+O método imprimeEtiquieta deve imprimir o tipo de produto(Hardware Smartphone ou Eletronico), seu código, Descrição, Quantidade e Preço.
+
+
+Crie um script para inserir 10 produtos na cesta, exibir a lista de produtos e total.]
+
+Utilize Namespace e autoloader no exercício anterior
